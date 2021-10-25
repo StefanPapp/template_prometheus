@@ -5,3 +5,7 @@ scrape_configs:
    static_configs:
     - targets:
        - localhost:9090
+ - job_name: hello-prom
+   static_configs:
+    - targets:
+       - midgard.local:8000
