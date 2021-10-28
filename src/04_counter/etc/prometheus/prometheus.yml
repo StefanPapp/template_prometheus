@@ -8,4 +8,4 @@ scrape_configs:
  - job_name: hello-prom
    static_configs:
     - targets:
-      - node_exporter:9100
+       - midgard.local:8000
