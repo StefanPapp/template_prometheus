@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: prompod
+spec:
+  containers:
+  - name: prompod
+    image: stefanpapp/helloprometheus
